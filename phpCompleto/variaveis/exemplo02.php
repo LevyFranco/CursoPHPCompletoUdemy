@@ -1,14 +1,35 @@
 <?php 
-  //padrão de escrita de variáveis kamuel case
+// Video Aula 14
 
-  $anoNascimento = 1988;
+  $nome1 = "Wanderson";
 
-  $nomeCompleto = "Wanderson Levy Franco dos Santos";
+  $sobrenome = "Santos";
 
-  echo $anoNascimento;
+  $nomeCompleto = $nome1 . " " . $sobrenome;
+
+  echo $nomeCompleto;
+
+  
+
+  echo $nome1;
 
   echo "<br />";
 
-  echo $nomeCompleto;
+  //unset($nome1);
+
+  if (isset($nome1)){
+
+    echo $nome1;
+
+  }
+
+  /*
+    RESUMO
+
+    eliminar variável com unset
+    verificar se uma variável existe com isset
+    Concatenação
+
+  */
 
 ?>
