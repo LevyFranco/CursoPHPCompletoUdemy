@@ -1,6 +1,7 @@
 <?php
   // Video Aula 18
-  //FUNÇÕES PARA STRINGS 
+  //STRINGS
+  //Funções para Strings
 
   $nome = "wanderson levy franco dos santos";
   $nome2 = "samayra patrícia franco dos santos";
