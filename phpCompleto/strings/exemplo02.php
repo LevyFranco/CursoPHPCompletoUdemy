@@ -2,12 +2,23 @@
   // Video Aula 18
   //FUNÇÕES PARA STRINGS 
 
-  $nome = "Wanderson Levy Franco dos Santos";
+  $nome = "wanderson levy franco dos santos";
+  $nome2 = "samayra patrícia franco dos santos";
 
   //função strtoupper - para deixar todas as letras maiúsculas
   echo strtoupper("<p>$nome</p>");
 
-  //função strtoupper - para deixar todas as letras maiúsculas
+  //função strtolower - para deixar todas as letras maiúsculas
   echo strtolower("<p>$nome</p>");
+
+  /*função ucwords - para aplicar maiúsculas somente na primeira letra
+  de cada palavra
+  */
+  echo '<p>'.ucwords($nome).'</p>';
+
+  /*função ucfirst - para aplicar maiúsculas somente na primeira letra
+  de um texto.
+  */
+  echo '<p>'.ucfirst($nome).'</p>';
 
 ?>
